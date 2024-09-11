@@ -27,7 +27,7 @@ setInterval(() => {
      b = Math.floor(Math.random() * 255);
      color= `rgb(${r},${g},${b})`
 
-     let box_outline = `${Math.floor(Math.random() * 50)}px`
+     let box_outline = `${Math.floor(Math.random() * 25)}px`
 
      box.style.border=`${box_outline} solid ${color}`
 
