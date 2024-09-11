@@ -22,5 +22,14 @@ setInterval(() => {
     box.style.height= `${height}%`
     box.style.transform= `${transformX} ${transformY}`
 
+     r = Math.floor(Math.random() * 255);
+     g = Math.floor(Math.random() * 255);
+     b = Math.floor(Math.random() * 255);
+     color= `rgb(${r},${g},${b})`
+
+     let box_outline = `${Math.floor(Math.random() * 50)}px`
+
+     box.style.border=`${box_outline} solid ${color}`
+
 }, 2000);
 
